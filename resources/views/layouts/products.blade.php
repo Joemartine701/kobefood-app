@@ -60,13 +60,13 @@
 					<img src="images/databas.png" width="100%" height="100%" class="small-img" alt="">
 				</div>
 				<div class="small-img-col">
-					<img src="images/slider-0.jpg" width="100%" height="100%" class="small-img" alt="">
+					<img src="images/databas.png" width="100%" height="100%" class="small-img" alt="">
 				</div>
 				<div class="small-img-col">
 					<img src="images/databas.png" width="100%" height="100%" class="small-img" alt="">
 				</div>
 				<div class="small-img-col">
-					<img src="images/slider-0.jpg" width="100%" height="100%" class="small-img" alt="">
+					<img src="images/databas.png" width="100%" height="100%" class="small-img" alt="">
 				</div>
 			</div>
 		</div>

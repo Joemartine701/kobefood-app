@@ -1,4 +1,5 @@
-
+@extends('admin.home')
+@section('body')
 <div class="row p-5">
     <div class="col-md-12">
         <div class="panel panel-headline">
@@ -84,3 +85,4 @@
     </div>
 </div>
 </div>
+@endsection
