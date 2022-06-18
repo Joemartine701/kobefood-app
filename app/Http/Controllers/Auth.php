@@ -10,10 +10,10 @@ use Illuminate\Auth\Events\Attempting;
 
 class Auth extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
     public function index(){
         return view('register');
     }
