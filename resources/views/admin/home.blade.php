@@ -3,7 +3,7 @@
 
 <head>
 	<title>{{ config('app.name', 'KOBE FOOD PRODUCTS') }}</title>
-	<meta charset="utf-8">
+	<meta charset="utf-8" name="csrf-token" content="{{ csrf_token() }}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<!-- VENDOR CSS -->
