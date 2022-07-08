@@ -1,11 +1,11 @@
-@extends('admin.home')
+@extends('welcome')
 @section('body')
 <div class="row p-5">
     <div class="col-md-12">
         <div class="panel panel-headline">
             <div class="panel-heading">
                 <center>
-                    <h3>REGISTER</h3>
+                    <h3>SIGN UP</h3>
                 </center>
                 <div class="right">
                     <button type="button" class="btn-toggle-collapse"><i class="lnr lnr-chevron-up"></i></button>
@@ -62,13 +62,13 @@
                         </div>
                     </div>
 
-                    <div class="form-group row">
+                    <!-- <div class="form-group row">
                         <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
 
                         <div class="col-md-6">
                             <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                         </div>
-                    </div>
+                    </div> -->
 
                     <center>
                         <div class="form-group row mb-0">

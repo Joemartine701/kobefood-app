@@ -104,7 +104,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-4 col-md-2 col-sm-4 col-xs-6">
 
-            <div class="row">
+            <div class="row" style="padding-left: 3%;padding-right:3%;">
               <div class="service-time middle">
                 <h4>Working Hours</h4>
                 <div class="time-table-section">
@@ -125,18 +125,18 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-4 col-md-8 footer-contact">
             <h3>KOBE FOOD<span>.</span></h3>
             <p>
               P.O.BOX 00000<br>
-              Mwanza Mjini <br>
+              Igoma,Mwanza Mjini <br>
               Mwanza,Tanzania <br><br>
               <strong>Phone:</strong> +255 758 904 721<br>
               <strong>Email:</strong> kobemchele@gmail.com<br>
             </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-8 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="fa fa-chevron-right"></i> <a href="/">Home</a></li>
@@ -147,7 +147,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="fa fa-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -156,9 +156,9 @@
               <li><i class="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="fa fa-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-8 footer-links">
             <h4>Our Social Networks</h4>
             <p>You can follow us on the following social networks.</p>
             <div class="social-links mt-3">

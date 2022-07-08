@@ -9,7 +9,7 @@
 				<div class="col-lg-12">
 					<div class="title-box">
 						<h2>About Us</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<p>Mchele bora , chakula bora kutoka KOBE FOOD ,Tanzania </p>
 					</div>
 				</div>
 			</div>
@@ -18,9 +18,9 @@
 					<div class="row align-items-center about-main-info">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<h2> Welcome to KOBE Food Products </h2>
-							<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
-							<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
-							<p class="read-m-text">Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
+							<p>Ni wauzaji wa mchele bora wenye kupendeza na mzuri kwa malika yote</p>
+							<p>Mchele wetu ni halisia unaolimwa nchini Tanzania katika mikoa mbali mbali </p>
+							<p class="read-m-text">kwa mawasiliano zaidi waweza kututafuta kupitia mawasiliano tuliyokuwekea kwenye tovuti yetu</p>
 							<a href="#" class="new-btn-d br-2 read-more">Read More</a>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12">
