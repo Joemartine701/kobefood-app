@@ -5,12 +5,14 @@
 
 <div class="panel panel-headline">
   <div class="panel-heading">
-  <center><h3 class="panel-title" >Gallery View</h3></center>  
+    <center>
+      <h3 class="panel-title">Gallery View</h3>
+    </center>
     <div class="right">
       <button type="button" class="btn-toggle-collapse"><i class="lnr lnr-chevron-up"></i></button>
     </div>
   </div>
-  <div class="panel-body">
+  <div class="panel-body table-responsive">
 
     @if(Session::has('flash_message_success'))
     <div class="alert alert-sm alert-danger alert-block" role="alert">
@@ -81,18 +83,18 @@
                     @enderror
                   </div>
                 </div>
-                <div>
-                 <center><img src="{{ asset('uploads/products/' . $stud->image) }}" alt="" width="80px" height="50px"></center> 
+                <div style = "padding-left: 2%; padding-right: 2%;">
+                  <img src="{{ asset('uploads/products/' . $stud->image) }}" alt="" width="80px" height="50px">
                 </div>
-        <center>
-                <div class="form-group row mb-0">
-                  <div class="col-md-6 offset-md-4">
-                    <button type="submit" class="btn btn-primary" style="background-color:#62c2e4 ;">
-                      {{ __('Update') }}
-                    </button>
+                <center>
+                  <div class="form-group row mb-0">
+                    <div class="col-md-12 offset-md-4">
+                      <button type="submit" class="btn btn-primary" style="background-color:#62c2e4 ;">
+                        {{ __('Update') }}
+                      </button>
+                    </div>
                   </div>
-                </div>
-                </center> 
+                </center>
               </form>
             </div>
           </div>

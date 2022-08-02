@@ -18,10 +18,10 @@
     <strong>{!! session('flash_message_success')!!}</strong>
   </div>
   @endif
-  <div class="panel-body">
+  <div class="panel-body table-responsive">
 
 
-    <table class="table table-bordered table-hover table-striped tablesorter" id="emp" style="text-align: center;">
+    <table class="table table-bordered table-hover table-striped tablesorter " id="emp" style="text-align: center;">
       <thead>
         <tr>
           <th>ID<i class="fa fa-sort"></i></th>
@@ -62,7 +62,7 @@
               </div>
               <form method="POST" action="{{URL::to('/productUpdate',$stud->id) }}" enctype="multipart/form-data" id="edit">
                 @csrf
-
+                <div style = "padding-left: 2%; padding-right: 2%;">
                 <div class="form-group p-5">
                   <label for="name" class="col-form-label text-md-right">{{ __('Product Name') }}</label>
 
@@ -78,7 +78,7 @@
                 </div>
 
 
-
+                 
                 <div class="form-group p-5">
                   <label for="product_code" class="col-form-label text-md-right">{{ __('Product Code') }}</label>
 
@@ -143,17 +143,18 @@
                   </div>
                 </div>
                 <div>
-                  <center> <img src="{{ asset('uploads/products/' . $stud->image) }}" alt="" width="80px" height="50px"></center>
+                  <img src="{{ asset('uploads/products/' . $stud->image) }}" alt="" width="80px" height="50px">
                 </div>
                 <center>
                   <div class="form-group row mb-0">
-                    <div class="col-md-6 offset-md-4">
+                    <div class="col-md-12 offset-md-4">
                       <button type="submit" class="btn btn-primary" style="background-color:#62c2e4 ;">
                         {{ __('Update') }}
                       </button>
                     </div>
                   </div>
                 </center>
+                </div>
               </form>
 
             </div>

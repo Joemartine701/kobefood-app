@@ -5,11 +5,9 @@
         <div class="panel panel-headline">
             <div class="panel-heading">
                 <center>
-                    <h3>SIGN UP</h3>
+                    <h3>Sign Up</h3>
                 </center>
-                <div class="right">
-                    <button type="button" class="btn-toggle-collapse"><i class="lnr lnr-chevron-up"></i></button>
-                </div>
+               
             </div>
             <div class="panel-body">
                 @if (session('status'))
@@ -72,7 +70,7 @@
 
                     <center>
                         <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>

@@ -104,8 +104,8 @@
                             </div>
                         </div>
                     <center>
-                        <div class="form-group row mb-0" >
-                            <div class="col-md-6 offset-md-4">
+                        <div class="form-group row mb-0 text-end" >
+                            <div class="col-md-12 offset-md-4">
                                 <button type="submit" class="btn btn-primary" style="background-color:#62c2e4 ;">
                                     {{ __('Submit') }}
                                 </button>
