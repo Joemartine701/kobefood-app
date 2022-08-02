@@ -16,8 +16,8 @@
   <meta name="author" content="">
 
   <!-- Site Icons -->
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="images/KOBE.png" type="image/x-icon">
+  <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png"> -->
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Pogo Slider CSS -->
@@ -41,8 +41,8 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="left-top">
-            {{-- <a class="new-btn-d br-2" href="#"><span>Book Appointment</span></a>
-						<div class="mail-b"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> demo@gmail.com</a></div>  --}}
+            {{-- <a class="new-btn-d br-2" href="#"><span></span></a>
+						<div class="mail-b"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>  --}}
             <div class=" new-btn-d br-2" id="demo">
               <h5 class="bold text-left" id="date" style="font-size: 15px;font-weight: 600;"></h5>
               <h5 class="bold text-left" id="time" style="font-size: 15px;font-weight: 600;"></h5>

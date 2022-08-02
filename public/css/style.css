@@ -2226,3 +2226,8 @@ Elements
         padding: 2px 0;
     }
 }
+
+.table-responsive, .dataTable-wrapper .dataTable-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }

@@ -2,8 +2,8 @@
 @section('body')
 
 <!-- Start Banner -->
-<div class="ulockd-home-slider">
-    <div class="container-fluid">
+<div class="ulockd-home-slider " >
+    <div class="container-fluid" >
         <div class="row">
             <div class="pogoSlider" id="js-main-slider">
                 <div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(images/rice4.jpg);">
@@ -57,6 +57,107 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="owl-carousel owl-theme">
+
+                    <!-- image not from database  gallery -->
+
+                    <div class="item">
+
+                        <div id="gallery" class="gallery-box">
+                            <div class="container-fluid">
+                                <div class="popup-gallery row clearfix ">
+
+                                    <div class="box-gallery ">
+
+                                        <div><img src="images/riceplate3.png" alt=""></div>
+
+                                        <div class="box-content">
+                                            <h3 class="title">Mchele</h3>
+                                            <ul class="icon">
+                                                <li><a href="images/riceplate3.png"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- another image -->
+                    <div class="item">
+
+                        <div id="gallery" class="gallery-box">
+                            <div class="container-fluid">
+                                <div class="popup-gallery row clearfix ">
+
+                                    <div class="box-gallery ">
+
+                                        <div><img src="images/riceplate1.png" alt=""></div>
+
+                                        <div class="box-content">
+                                            <h3 class="title">Mchele</h3>
+                                            <ul class="icon">
+                                                <li><a href="images/riceplate1.png"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- another -->
+                    <div class="item">
+
+                        <div id="gallery" class="gallery-box">
+                            <div class="container-fluid">
+                                <div class="popup-gallery row clearfix ">
+
+                                    <div class="box-gallery ">
+
+                                        <div><img src="images/riceplate2.png" alt=""></div>
+
+                                        <div class="box-content">
+                                            <h3 class="title">Mchele</h3>
+                                            <ul class="icon">
+                                                <li><a href="images/riceplate2.png"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- another -->
+                    <div class="item">
+
+                        <div id="gallery" class="gallery-box">
+                            <div class="container-fluid">
+                                <div class="popup-gallery row clearfix ">
+
+                                    <div class="box-gallery ">
+
+                                        <div><img src="images/riceplate3.png" alt=""></div>
+
+                                        <div class="box-content">
+                                            <h3 class="title">Mchele</h3>
+                                            <ul class="icon">
+                                                <li><a href="images/riceplate3.png"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- end of image not from database -->
                     @foreach($viewgallery as $gallery)
                     <div class="item">
 
@@ -92,30 +193,30 @@
 
 
 
-    <script>
-        var showed_box = 0;
+<script>
+    var showed_box = 0;
 
-        function fNext() {
+    function fNext() {
 
-            showed_box += -500;
+        showed_box += -500;
 
-            if (showed_box < -2000)
-                showed_box = 0;
+        if (showed_box < -2000)
+            showed_box = 0;
 
-            document.getElementById('sld').style.transform = "translateX(" + showed_box + "px)";
-        }
+        document.getElementById('sld').style.transform = "translateX(" + showed_box + "px)";
+    }
 
-        function fPrevious() {
+    function fPrevious() {
 
-            showed_box += 500;
+        showed_box += 500;
 
-            if (showed_box > 0)
-                showed_box = -2000;
+        if (showed_box > 0)
+            showed_box = -2000;
 
-            document.getElementById('sld').style.transform = "translateX(" + showed_box + "px)";
+        document.getElementById('sld').style.transform = "translateX(" + showed_box + "px)";
 
-        }
-    </script>
+    }
+</script>
 
 
-    @endsection
+@endsection

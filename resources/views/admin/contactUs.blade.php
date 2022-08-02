@@ -37,7 +37,7 @@
   <div class="panel-heading">
     <center><h3 class="panel-title">Contact List</h3></center>
   </div>
-  <div class="panel-body">
+  <div class="panel-body table-responsive">
 
     <table class="table table-bordered table-hover table-striped tablesorter" id="emp" style="text-align: center;">
       <thead>

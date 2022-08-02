@@ -54,19 +54,19 @@
 
 	<div class="row mt-5">
 		<div class="col-lg-5 col-md-12 col-12 ">
-			<img class="img-fluid w-100 pb-1" src="images/f1.png" id="MainImg" alt="">
+			<img class="img-fluid w-100 pb-1" src="images/riceplate2.png" id="MainImg" alt="">
 			<div class="small-img-group">
 				<div class="small-img-col">
-					<img src="images/databas.png" width="100%" height="100%" class="small-img" alt="">
+					<img src="images/riceplate3.png" width="100%" height="100%" class="small-img" alt="">
 				</div>
 				<div class="small-img-col">
-					<img src="images/databas.png" width="100%" height="100%" class="small-img" alt="">
+					<img src="images/rice3.jpg" width="100%" height="100%" class="small-img" alt="">
 				</div>
 				<div class="small-img-col">
-					<img src="images/databas.png" width="100%" height="100%" class="small-img" alt="">
+					<img src="images/riceplate.jpg" width="100%" height="100%" class="small-img" alt="">
 				</div>
 				<div class="small-img-col">
-					<img src="images/databas.png" width="100%" height="100%" class="small-img" alt="">
+					<img src="images/rice3.jpg" width="100%" height="100%" class="small-img" alt="">
 				</div>
 			</div>
 		</div>
@@ -89,6 +89,234 @@
 	</div>
 
 	<div class="row mx-auto container-fluid">
+
+<!-- products not from databbase -->
+
+<div class="product text-center col-lg-3 col-md-4 col-12">
+			<img class="img-fluid mb-3 prod" src="images/riceplate2.png" alt="">
+			<div class="star">
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</div>
+			<h5 class="p-name"> Mchele</h5>
+			<a href="" class="btn btn-primary buy-btn" data-toggle="modal" data-target="#producteditmodal">DETAILS</a>
+		</div>
+
+<div class="modal fade" id="producteditmodal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editmodal">Product Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+	  <section class=" container product">
+
+	<div class="row mt-5">
+		<div class="col-lg-5 col-md-12 col-12 ">
+			<img class="img-fluid w-100 pb-1" src="images/riceplate2.png" id="MainImg" alt="">
+		</div>
+		<div class="col-lg-6 col-md-12 col-12">
+			<h6>KOBE Food Products</h6>
+			<div class="row">
+			<span>Name : </span>
+			<h6 id="pric" style="padding-left: 10px;">rice</h6>
+			</div>
+			<div class="row">
+			<span>Color  : </span>
+			<h6 id="pric" style="padding-left: 10px;">white</h6>
+			</div>
+            <div class="row">
+			<span>Price  : </span>
+			<h6 id="pric" style="padding-left: 10px;">Tshs. 2500</h6>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-12 col-md-12 col-12">
+	        <h4 class="mt-2 mb-2">Product Details</h4>
+			<span id="description">Mchele mzuri wenye kupendeza</span>
+			</div>
+</section>
+    </div>
+  </div>
+</div>
+
+<!-- another image -->
+
+<div class="product text-center col-lg-3 col-md-4 col-12">
+			<img class="img-fluid mb-3 prod" src="images/riceplate2.png" alt="">
+			<div class="star">
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</div>
+			<h5 class="p-name"> Mchele</h5>
+			<a href="" class="btn btn-primary buy-btn" data-toggle="modal" data-target="#producteditmodal">DETAILS</a>
+		</div>
+
+<div class="modal fade" id="producteditmodal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editmodal">Product Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+	  <section class=" container product">
+
+	<div class="row mt-5">
+		<div class="col-lg-5 col-md-12 col-12 ">
+			<img class="img-fluid w-100 pb-1" src="images/riceplate2.png" id="MainImg" alt="">
+		</div>
+		<div class="col-lg-6 col-md-12 col-12">
+			<h6>KOBE Food Products</h6>
+			<div class="row">
+			<span>Name : </span>
+			<h6 id="pric" style="padding-left: 10px;">rice</h6>
+			</div>
+			<div class="row">
+			<span>Color  : </span>
+			<h6 id="pric" style="padding-left: 10px;">white</h6>
+			</div>
+            <div class="row">
+			<span>Price  : </span>
+			<h6 id="pric" style="padding-left: 10px;">Tshs. 2500</h6>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-12 col-md-12 col-12">
+	        <h4 class="mt-2 mb-2">Product Details</h4>
+			<span id="description">Mchele mzuri wenye kupendeza</span>
+			</div>
+</section>
+    </div>
+  </div>
+</div>
+
+<!-- another image -->
+<div class="product text-center col-lg-3 col-md-4 col-12">
+			<img class="img-fluid mb-3 prod" src="images/riceplate2.png" alt="">
+			<div class="star">
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</div>
+			<h5 class="p-name"> Mchele</h5>
+			<a href="" class="btn btn-primary buy-btn" data-toggle="modal" data-target="#producteditmodal">DETAILS</a>
+		</div>
+
+<div class="modal fade" id="producteditmodal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editmodal">Product Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+	  <section class=" container product">
+
+	<div class="row mt-5">
+		<div class="col-lg-5 col-md-12 col-12 ">
+			<img class="img-fluid w-100 pb-1" src="images/riceplate2.png" id="MainImg" alt="">
+		</div>
+		<div class="col-lg-6 col-md-12 col-12">
+			<h6>KOBE Food Products</h6>
+			<div class="row">
+			<span>Name : </span>
+			<h6 id="pric" style="padding-left: 10px;">rice</h6>
+			</div>
+			<div class="row">
+			<span>Color  : </span>
+			<h6 id="pric" style="padding-left: 10px;">white</h6>
+			</div>
+            <div class="row">
+			<span>Price  : </span>
+			<h6 id="pric" style="padding-left: 10px;">Tshs. 2500</h6>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-12 col-md-12 col-12">
+	        <h4 class="mt-2 mb-2">Product Details</h4>
+			<span id="description">Mchele mzuri wenye kupendeza</span>
+			</div>
+</section>
+    </div>
+  </div>
+</div>
+<!-- image  not from laravel-->
+
+<div class="product text-center col-lg-3 col-md-4 col-12">
+			<img class="img-fluid mb-3 prod" src="images/riceplate2.png" alt="">
+			<div class="star">
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</div>
+			<h5 class="p-name"> Mchele</h5>
+			<a href="" class="btn btn-primary buy-btn" data-toggle="modal" data-target="#producteditmodal">DETAILS</a>
+		</div>
+
+<div class="modal fade" id="producteditmodal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editmodal">Product Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+	  <section class=" container product">
+
+	<div class="row mt-5">
+		<div class="col-lg-5 col-md-12 col-12 ">
+			<img class="img-fluid w-100 pb-1" src="images/riceplate2.png" id="MainImg" alt="">
+		</div>
+		<div class="col-lg-6 col-md-12 col-12">
+			<h6>KOBE Food Products</h6>
+			<div class="row">
+			<span>Name : </span>
+			<h6 id="pric" style="padding-left: 10px;">rice</h6>
+			</div>
+			<div class="row">
+			<span>Color  : </span>
+			<h6 id="pric" style="padding-left: 10px;">white</h6>
+			</div>
+            <div class="row">
+			<span>Price  : </span>
+			<h6 id="pric" style="padding-left: 10px;">Tshs. 2500</h6>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-12 col-md-12 col-12">
+	        <h4 class="mt-2 mb-2">Product Details</h4>
+			<span id="description">Mchele mzuri wenye kupendeza</span>
+			</div>
+</section>
+    </div>
+  </div>
+</div>
+
+<!-- end of images not from database -->
+
+
+<!-- database -->
+
 	@foreach($product as $result)
 		<div class="product text-center col-lg-3 col-md-4 col-12">
 			<img class="img-fluid mb-3 prod" src="{{ asset('uploads/products/' . $result->image) }}" alt="">
